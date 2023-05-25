@@ -1,0 +1,9 @@
+{
+  "src": [1, [2, [3, [4]], 5]],
+  "run": [{
+    "method": "log",
+    "params": {
+      "raw": "{{_.flatten(self.src)}}"
+    }
+  }]
+}
