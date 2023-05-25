@@ -21,17 +21,17 @@
   "run": [{
     "method": "log",
     "params": {
-      "raw": "random friend: {{_.sample(friends)}}"
+      "raw": "random friend: {{_.sample(self.friends)}}"
     }
   }, {
     "method": "log",
     "params": {
-      "raw": "random friend: {{_.sample(friends)}}"
+      "raw": "random friend: {{_.sample(self.friends)}}"
     }
   }, {
     "method": "log",
     "params": {
-      "raw": "random friend: {{_.sample(friends)}}"
+      "raw": "random friend: {{_.sample(self.friends)}}"
     }
   }]
 }
