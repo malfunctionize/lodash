@@ -1,0 +1,8 @@
+{
+  "run": [{
+    "method": "log",
+    "params": {
+      "raw": "{{_.compact([0, 1, false, 2, '', 3])}}"
+    }
+  }]
+}
