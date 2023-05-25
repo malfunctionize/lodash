@@ -1,0 +1,13 @@
+{
+  "users": [
+    { "user": "barney",  "active": false },
+    { "user": "fred",    "active": false },
+    { "user": "pebbles", "active": true }
+  ],
+  "run": [{
+    "method": "log",
+    "params": {
+      "raw": "{{_.findIndex(self.users, { 'user': 'fred', 'active': false })}}"
+    }
+  }]
+}
