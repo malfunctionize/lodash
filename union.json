@@ -1,0 +1,10 @@
+{
+  "a": [2],
+  "b", [1, 2],
+  "run": [{
+    "method": "log",
+    "params": {
+      "raw": "{{_.union(self.a, self.b)}}"
+    }
+  }]
+}
