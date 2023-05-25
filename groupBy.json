@@ -1,0 +1,10 @@
+{
+  "items": ["one", "two", "three", "four", "five"],
+  "run": [{
+    "method": "log",
+    "params": {
+      "raw": "{{_.groupBy(self.items, 'length')}}"
+
+    }
+  }]
+}
