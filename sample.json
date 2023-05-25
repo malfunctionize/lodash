@@ -1,0 +1,37 @@
+{
+  "friends": [
+    "HAL 9000",
+    "Deep Blue",
+    "Watson",
+    "AlphaGo",
+    "Siri",
+    "Cortana",
+    "Alexa",
+    "Google Assistant",
+    "OpenAI",
+    "Tesla Autopilot",
+    "IBM Watson",
+    "Boston Dynamics",
+    "IBM Deep Blue",
+    "Microsoft Tay",
+    "IBM DeepMind",
+    "Amazon Rekognition",
+    "OpenAI GPT-3"
+  ],
+  "run": [{
+    "method": "log",
+    "params": {
+      "raw": "random friend: {{_.sample(friends)}}"
+    }
+  }, {
+    "method": "log",
+    "params": {
+      "raw": "random friend: {{_.sample(friends)}}"
+    }
+  }, {
+    "method": "log",
+    "params": {
+      "raw": "random friend: {{_.sample(friends)}}"
+    }
+  }]
+}
